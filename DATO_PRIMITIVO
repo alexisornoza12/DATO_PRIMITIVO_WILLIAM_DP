@@ -1,0 +1,13 @@
+# Operación combinada utilizando un tipo de dato caracter en Python
+
+# Definición de la variable
+alumnos_matriculados = ""  # Tipo de dato primitivo: cadena de caracteres (caracteres vacíos)
+
+# Operación combinada: agregar nombres de alumnos matriculados
+alumnos_matriculados += "Juan, "
+alumnos_matriculados += "María, "
+alumnos_matriculados += "Pedro, "
+alumnos_matriculados += "Ana"
+
+# Imprimir los nombres de los alumnos matriculados
+print("Alumnos matriculados:", alumnos_matriculados)
